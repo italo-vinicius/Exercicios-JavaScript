@@ -1,0 +1,38 @@
+body {
+    background: rgb(157, 0, 255);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: rgb(206, 206, 206);
+    text-align: center;
+}
+
+#imgg {
+    text-align: center;
+
+}
+
+img#imagem {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 500px;
+    box-shadow: 5px 5px 10px black;
+
+}
+
+
+footer {
+    color: darkkhaki;
+    text-align: center;
+    font-style: italic;
+
+
+}

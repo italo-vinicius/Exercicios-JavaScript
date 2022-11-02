@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrangeirismo</title>
+    <style>
+        body {
+            background: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Consulte sua nacionalidade</h1>
+    Digite sua nacionalidade <input type="text" id="nac">
+    <input type="button" value="Verificar" onclick="verifica()">
+    <div id="resp"> </div>
+    <script>
+        function verifica() {
+            let nac = window.document.querySelector('#nac')
+            let resp = window.document.querySelector('#resp')
+            nac.value == 'brasil' ? resp.innerHTML = 'sim' :  resp.innerHTML = 'não' 
+        }
+</script>
+</body>
+</html>
